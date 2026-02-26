@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthPodcastIQ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0"
+  }
+}
+</script>
+<style>
+  body {
+    background-color: #F9FAFB;
+    overflow-x: hidden;
+  }
+  body::before, body::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -1;
+  }
+  body::before {
+    width: 350px;
+    height: 350px;
+    background: rgba(168, 177, 255, 0.3);
+    top: -50px;
+    left: -100px;
+  }
+  body::after {
+    width: 400px;
+    height: 400px;
+    background: rgba(135, 206, 250, 0.3);
+    bottom: -80px;
+    right: -120px;
+  }
+  @media (min-width: 768px) {
+    body::before {
+      width: 450px;
+      height: 450px;
+    }
+    body::after {
+      width: 500px;
+      height: 500px;
+    }
+  }
+</style>
+<link rel="stylesheet" href="/src/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+openai-whisper
+yt-dlp
+torch
+transformers
+sentence-transformers
+sentencepiece
+google-generativeai
+scikit-learn
+numpy
+requests
+beautifulsoup4
+pydantic
+python-dotenv

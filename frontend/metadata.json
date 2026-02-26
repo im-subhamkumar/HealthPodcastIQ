@@ -1,0 +1,5 @@
+{
+  "name": "Copy of HealthPodcastIQ",
+  "description": "An advanced research tool with two modes. 'Single Summary' transforms long-form podcasts into structured Q&A summaries with text-to-speech and video thumbnails. 'Episode Sequencing' intelligently sequences content from multiple podcasts into a single, coherent curriculum based on concept dependency.",
+  "requestFramePermissions": []
+}
